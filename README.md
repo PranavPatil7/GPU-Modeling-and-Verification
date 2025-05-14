@@ -12,7 +12,8 @@ Creating a UVM-based verification environment to simulate and validate functiona
 
 Optimizing the testbench and simulation flows for performance
 
-🧠 Core Components Implemented
+Core Components Implemented>>>
+
 Instruction Set Simulation (ISS):
 
 A simplified ISA (Instruction Set Architecture) is created to define how the GPU executes instructions (e.g., ADD, LOAD, STORE).
@@ -47,14 +48,13 @@ Functional coverage collection across different instruction categories and opera
 
 Random and directed test generation supported via Python or SystemVerilog constraint classes.
 
-📈 Key Achievements / Metrics
+
+
+Key Achievements / Metrics>>>
+
 30% reduction in simulation time achieved by:
-
 Restructuring the UVM environment to remove redundant transactions
-
 Improving clocking and reset synchronization within the testbench
-
 Achieved 92%+ functional coverage, validating control signals, pipeline stages, and arithmetic correctness
-
 Successfully verified instruction sequencing, memory access, and hazard detection for 1000+ test cases
 
